@@ -59,9 +59,9 @@ draw_menu() {
 
 # ------------------ Initialization ------------------
 ARCH=$(uname -m)
-HYSTERIA_VERSION_AMD64="https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-amd64"
-HYSTERIA_VERSION_ARM="https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-arm"
-HYSTERIA_VERSION_ARM64="https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-arm64"
+HYSTERIA_VERSION_AMD64="https://github.com/apernet/hysteria/releases/download/app%2Fv2.7.0/hysteria-linux-amd64"
+HYSTERIA_VERSION_ARM="https://github.com/apernet/hysteria/releases/download/app%2Fv2.7.0/hysteria-linux-arm"
+HYSTERIA_VERSION_ARM64="https://github.com/apernet/hysteria/releases/download/app%2Fv2.7.0/hysteria-linux-arm64"
 
 case "$ARCH" in
   x86_64)   DOWNLOAD_URL="$HYSTERIA_VERSION_AMD64" ;;
